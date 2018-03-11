@@ -3,6 +3,8 @@
 Proportion Calculator application written in JavaScript (ES6, classes, code components and other cool stuff).  
 With RWD and good design :-)
 
+Check this on __[https://warmaxis.github.io/Proportion_calculator_app/](https://warmaxis.github.io/Proportion_calculator_app/)__
+
 Calculator app coded by __[Michał Milanowski](https://www.linkedin.com/in/michalmilanowski/)__, other code is written by __[Tomasz Fijoł](https://github.com/tomek-f/zadanie-dla-mm) K2 Internet S.A.__
 
 ## Functions:
