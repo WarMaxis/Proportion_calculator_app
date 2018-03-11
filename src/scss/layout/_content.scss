@@ -1,0 +1,10 @@
+// -----------------------------------------------------------------------------
+// wrap dla contentu - Michał Milanowski EDITED
+// -----------------------------------------------------------------------------
+.content {
+  padding: $default-padding;
+  background-color: $mm-color-gray;
+  @include breakpoint($break-md) {
+    background-color: $color-black;
+  }
+}

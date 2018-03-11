@@ -1,0 +1,12 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the footer of the site/application.
+// -----------------------------------------------------------------------------
+
+.footer {
+  padding: $default-padding;
+  background-color: $color-main;
+
+  @include breakpoint($break-md) {
+    background-color: $color-black;
+  }
+}

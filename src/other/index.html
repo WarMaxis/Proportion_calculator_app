@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html class="no-js no-touch no-svg" lang="pl">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Zadanie dla Michał Milanowski</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Roboto:300,700&amp;subset=latin,latin-ext" as="style" onload="this.rel='stylesheet'">
+
+    <noscript>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,700&amp;subset=latin,latin-ext">
+    </noscript>
+
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+
+    <div id="wrap" class="wrap">
+        <div id="wrap-inner" class="wrap__inner">
+
+            <main id="content" class="content">
+
+                <h1 class="text-center">Zadanie Michał Milanowski</h1>
+
+                <div id="calc" class="calc">
+
+                    <h2>Calc</h2>
+
+                    <p>
+                        <strong>Wzór:</strong>
+                    </p>
+
+                    <p>a - b</p>
+                    <p>c - x</p>
+                    <p><b>x</b> = ( b * c ) / a</p>
+
+                    <div class="calc-form">
+                        <h3>Calc Form</h3>
+
+                        <div class="calc-form-container">
+                            <div class="calc-form-row">
+                                <div class="calc-form-6-md-row">
+                                    <label class="text-center" for="calc-input-a">a:</label>
+                                    <input id="calc-input-a" type="number" value="100">
+                                </div>
+
+                                <div class="calc-form-6-md-row">
+                                    <label class="text-center" for="calc-input-b">b:</label>
+                                    <input id="calc-input-b" type="number" value="75">
+                                </div>
+                            </div>
+
+                            <button id="switch-a_b-button">Zamień a &laquo;&raquo; b</button>
+
+                            <div class="calc-form-row">
+                                <div class="calc-form-6-md-row">
+                                    <label class="text-center" for="calc-input-c">c:</label>
+                                    <input id="calc-input-c" type="number" value="4">
+                                </div>
+
+                                <div class="calc-form-6-md-row">
+                                    <label class="text-center" for="calc-input-x"><b>x:</b></label>
+                                    <input id="calc-input-x" type="number" readonly value="3">
+                                </div>
+                            </div>
+
+                            <button id="switch-c_x-button">Zamień c &laquo;&raquo; x</button>
+                        </div>
+                    </div>
+
+                    <div class="calc-slider">
+                        <h3>Calc Slider <span class="text-normal-weight">( % liczby "b" w liczbie "a" )</span></h3>
+                        <label class="text-center" for="calc-slider-range"><span id="calc-slider-label">75</span> %</label>
+                        <input id="calc-slider-range" class="calc-slider-range" type="range" min="0" max="100" step="1" value="75">
+                    </div>
+
+                    <div class="calc-bottom">
+                        <button id="calc-reset">Reset</button>
+                    </div>
+
+                </div>
+
+            </main>
+
+        </div>
+    </div>
+
+    <script async src="./js/main.js"></script>
+
+</body>
+
+</html>

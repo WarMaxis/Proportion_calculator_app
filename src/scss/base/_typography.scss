@@ -1,0 +1,44 @@
+// -----------------------------------------------------------------------------
+// Basic typography style for copy text - Michał Milanowski EDITED
+// -----------------------------------------------------------------------------
+html {
+  font-size: 100%;
+}
+
+body {
+  @include tf-default-font-size;
+  font-family: $text-font-stack;
+  color: $color-white;
+  font-weight: 300;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  //color: $color-white;
+}
+
+h1 {
+  color: $mm-dark-primary-color;
+}
+
+b,
+strong {
+  font-weight: 700;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-normal-weight {
+  font-weight: normal;
+}
+
+//.text {
+//
+//}

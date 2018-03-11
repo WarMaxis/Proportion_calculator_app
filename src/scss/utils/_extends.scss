@@ -1,0 +1,7 @@
+%tf-clearfix {
+  &:after {
+    display: table;
+    clear: both;
+    content: '';
+  }
+}
